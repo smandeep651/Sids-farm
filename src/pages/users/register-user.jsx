@@ -56,7 +56,7 @@ const RegisterUser = () => {
                         <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
                             <img
                                 src="/landingpage.webp" // Replace with your image URL
-                                alt="Landing Page Visual"
+                                alt="Register Page Visual"
                                 className="w-full h-auto rounded-lg"
                             />
                         </div>
