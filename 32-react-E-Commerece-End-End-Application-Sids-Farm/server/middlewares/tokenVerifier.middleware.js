@@ -18,7 +18,8 @@ const tokenVerifierMiddleware = async (request, response, next) => {
             next();
         });
     } catch (error) {
-
+        console.error("Token Verification Error:", error);
+        return response.status(500).json({ msg: "Server Error in Token Verification" });
     }
 };
 

@@ -12,6 +12,7 @@ const {UserTable} = require('../database/schema/user.schema');
  * @params : username, email, password
  */
 const registerUser = async (request, response) => {
+  
     try {
         // read the form data
         const {username, email, password} = request.body;

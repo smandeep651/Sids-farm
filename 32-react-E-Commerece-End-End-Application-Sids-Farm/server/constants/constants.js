@@ -1,4 +1,5 @@
-export const ORDER_STATUS = {
+// constants.js
+const ORDER_STATUS = {
     ORDER_PLACED: "Order Placed",
     PACKING: "Packing",
     DISPATCHED: "Dispatched",
@@ -6,4 +7,6 @@ export const ORDER_STATUS = {
     DELIVERED: "Delivered",
     COMPLETED: "Completed",
     CANCELLED: "Cancelled"
-}
+};
+
+module.exports = { ORDER_STATUS }; // Export as an object

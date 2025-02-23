@@ -13,7 +13,7 @@ const {tokenVerifierMiddleware} = require("../middlewares/tokenVerifier.middlewa
  * @params : username, email, password
  */
 userRouter.post("/register", [
-    body('username').notEmpty().isLength({min: 5, max: 10}).withMessage('Username must be min 5 chars'),
+    body('username').notEmpty().isLength({min: 5, max: 40}).withMessage('Username must be min 5 chars'),
     body('email').isEmail().withMessage('Proper email is required'),
     body('password').isStrongPassword().withMessage('Strong password is required'),
 ], formValidationMiddleware, registerUser);

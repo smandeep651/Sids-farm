@@ -55,7 +55,7 @@ const RegisterUser = () => {
                         {/* Left Side: Image */}
                         <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
                             <img
-                                src="https://sidsfarm.com/wp-content/uploads/2021/07/products.png" // Replace with your image URL
+                                src="/landingpage.webp" // Replace with your image URL
                                 alt="Landing Page Visual"
                                 className="w-full h-auto rounded-lg"
                             />
